@@ -1,0 +1,8 @@
+.contact>p{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 11px;
+  margin-right: 6px;
+  font-style: italic;
+  cursor: pointer;
+}

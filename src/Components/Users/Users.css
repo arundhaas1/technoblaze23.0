@@ -1,0 +1,50 @@
+.user__body{
+  min-height: 60vh;
+}
+.user{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  margin-top: 20px ;
+  background-color: rgb(233, 233, 120);
+  /* border: 1px solid black; */
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:20px;
+  border-radius: 18px;
+}
+
+.user__left{
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+.user__left>p{
+  margin-bottom: 6px;
+  font-style: italic;
+  cursor: pointer;
+}
+.user__sec{
+  display: flex;
+}
+.user__right>p{
+  margin-bottom: 6px;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.image{
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 130px;
+}
+
+.user__left>a>p{
+  text-decoration: none !important;
+  color: #000;
+  font-style: italic;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
