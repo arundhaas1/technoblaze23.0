@@ -4,7 +4,7 @@ import "./Memory.css";
 function Memory() {
   return (
     <div className="memory">
-      <h3>Technoblaze 2020 Gallery</h3>
+      <h3>Technoblaze 2022 Gallery</h3>
       <div className="images">
         <img alt="" src="assets/1e.jpg" />
         <img alt="" src="assets/2e.jpg" />

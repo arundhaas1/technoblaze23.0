@@ -38,6 +38,7 @@ function Users() {
   return (
     <div className="users">
       <Header />
+      <h4 className="title"> REGISTERED USERS </h4>
       <div className="user__body">
         {datas.map((data) => {
           return (
@@ -64,10 +65,10 @@ function Users() {
                   <p>{data.year}</p>
                   <p>{data.events}</p>
                   <p>{data.Acc}</p>
-                  <p>{data.attachment != "" ? "yes" : "No"}</p>
+                  <p>{data.attachment !== "" ? "yes" : "No"}</p>
                 </div>
               </div>
-              {data.attachment != "" ? (
+              {data.attachment !== "" ? (
                 <img alt="" src={data.attachment} className="image" />
               ) : null}
             </div>

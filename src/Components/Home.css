@@ -141,6 +141,10 @@
     font-size: 13px;
   }
 
+  .info__button>p{
+    font-size: 26px !important;
+  }
+
   .home__info > h5 {
     font-size: 22px;
     font-style: italic;
