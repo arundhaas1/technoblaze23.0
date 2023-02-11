@@ -1,36 +1,90 @@
-.header{
+.header {
   display: flex;
-  height:64px;
+  height: 64px;
   background-color: black;
   color: white;
   font-size: 15px;
   font-weight: 500;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-.header__left{
+.header__left {
   display: flex;
   align-items: center;
 }
 
-.header__left>img{
+.header__left > img {
   width: 40px;
   height: 40px;
   margin-left: 10px;
   cursor: pointer;
 }
 
-.header__right{
+.header__right {
   display: flex;
   align-items: center;
   margin-left: auto;
   gap: 10px;
 }
-.header__right>p{
+.header__right > p,
+.about {
   margin-right: 10px;
   cursor: pointer;
 }
 
-.header__right>p:hover{
+.header__right > p:hover {
   color: rgb(214, 214, 11) !important;
   /* transform: scale(1.08); */
+}
+
+.toggle {
+  position: absolute;
+  right: 25px;
+  top: 70px;
+  width: 180px;
+  z-index: 100;
+  background-color: rgb(136, 130, 130);
+}
+
+.header__t {
+  cursor: pointer;
+  /* margin-top: 10px; */
+}
+
+.header__t > p {
+  margin-top: 15px;
+}
+
+.nav__menu {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  opacity: 0;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav__menu {
+    display: flex;
+    opacity: 1;
+  }
+  .header__right > p,
+  .about {
+    display: none;
+  }
+}
+
+.header__t > p {
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none !important;
+  color: white;
+}
+
+.header__t > p:hover {
+  color: rgb(250, 248, 142) !important;
 }

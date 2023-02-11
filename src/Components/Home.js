@@ -84,7 +84,7 @@ function Home() {
           <Cards name={"Photography"} url={"assets/11.jpg"} />
           <Cards name={"Meme Creation"} url={"assets/12.jpg"} />
           <Cards name={"Treasure Hunt"} url={"assets/13.jpg"} />
-          <Cards name={"Rolling Chair"} url={"assets/14.jpg"} />
+          <Cards name={"Rolling Sir"} url={"assets/14.jpg"} />
           <Cards name={"Wall Painting"} url={"assets/15.jpg"} />
         </div>
       </div>
