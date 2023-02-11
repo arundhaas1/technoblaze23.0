@@ -34,7 +34,7 @@
   cursor: pointer;
 }
 
-.header__right > p:hover {
+.header__right > p:hover , .header__right>a>p:hover {
   color: rgb(214, 214, 11) !important;
   /* transform: scale(1.08); */
 }

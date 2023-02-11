@@ -14,21 +14,17 @@ function ContactCard() {
         <div className="contact__phone">
           <img alt="" src="assets/phone.png" />
           <div className="sc1">
-            <span>6374006612</span>
-            <p>(M.Ganesh)</p>
-          </div>
-          <div className="sc1">
-            <span>8098632860</span>
-            <p>(M.Dinesh)</p>
+            <span>9360287390</span>
+            <p>(M Baskar)</p>
           </div>
           <div className="sc1" style={{marginRight:"-12px"}}>
-            <span>7339535750</span>
-            <p>(R.Pravin)</p>
+            <span>8220319617</span>
+            <p>(S Abirham)</p>
           </div>
         </div>
         <div className="contact__mail">
           <img alt="" src="assets/mail1.png" />
-          <p>technoblaze22.0@gmail.com</p>
+          <p>technoblaze2023@gmail.com</p>
         </div>
         <div className="contact__location">
           <img alt="" src="assets/location.png" />

@@ -11,7 +11,7 @@
 
 .eventdata:hover {
   transition: transform 0.7s;
-  transform: scale(1.08);
+  transform: scale(0.94);
 }
 
 .data__body {

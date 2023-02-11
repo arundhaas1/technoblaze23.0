@@ -149,6 +149,17 @@
   margin-top: 10px;
 }
 
-.gpay>span{
+.gpay>a{
   color: rgb(241, 233, 113);
+}
+
+@media (max-width:768px){
+  .gpay{
+    font-size: 14px;
+  }
+
+  .pay__amount{
+    font-size: 20px;
+    margin-top: 10px;
+  }
 }

@@ -16,7 +16,7 @@
 
 .cards:hover{
   transition: transform 1.09s;
-  transform: scale(1.06);
+  transform: scale(0.95);
 }
 
 .cards__img > img {

@@ -1,10 +1,12 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import Cards from "./Cards";
 import Footer from "./Footer";
 import Header from "./Header";
 import "./Home.css";
 
 function Home() {
+  const history=useHistory();
   return (
     <div className="home">
       <Header />
@@ -22,7 +24,7 @@ function Home() {
             <p>TECHNOBLAZE 23.0</p>
             <button
               style={{ textDecoration: "none", color: "white" }}
-              to="/register"
+              onClick={()=>history.push("/register")}
             >
               Register Now
             </button>
@@ -46,14 +48,14 @@ function Home() {
           <p>TECHNOBLAZE 22.0</p>
         </div>
         <p>
-          Technoblaze 22.0 is an inter college technical and non- technical
+          Technoblaze 23.0 is an inter college technical and non- technical
           carnival which is organised by the Society for the Advancement of
           Civil Engineering of Government College of Engineering, Salem. It
           takes you on a complete ride to technical extravaganza. It provides
           the perfect platform to expose the technical acumen and compete with
           peers from various institutes. Above all technoblaze serves well in
           synchronizing the energy of civil engineers to light up the world. The
-          destined date is April 18 & 19. We invite the students from various
+          destined date is March 1 & 2. We invite the students from various
           colleges to expose their skills.
         </p>
       </div>

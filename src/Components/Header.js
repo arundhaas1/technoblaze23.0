@@ -21,6 +21,8 @@ function Header() {
         <p onClick={() => history.push("/events")}>Events</p>
         <p onClick={() => history.push("/register")}>Register</p>
         <a
+          target="_blank"
+          rel="noopener noreferrer"
           href="https://gcesalem.edu.in/"
           style={{ textDecoration: "none", color: "white" }}
         >
@@ -49,7 +51,7 @@ function Header() {
           <Link style={{ textDecoration: "none" }} className="header__t" to="/register">
             <p>Register</p>
           </Link>
-          <a style={{ textDecoration: "none" }} className="header__t" href="https://gcesalem.edu.in/">
+          <a style={{ textDecoration: "none" }} className="header__t" target="_blank" rel="noopener noreferrer" href="https://gcesalem.edu.in/">
             <p>About GCE</p>
           </a>
           <Link style={{ textDecoration: "none" }} className="header__t" to="/memories">

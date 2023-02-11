@@ -6,6 +6,7 @@ import Events from './Components/Events/Events';
 import Register from './Components/Register/Register';
 import ScrollToTop from './ScrollToTop';
 import Contact from './Components/Contact/Contact';
+import Memories from './Components/Memories/Memories';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route path="/events" component={Events} />
       <Route path="/register" component={Register} />
       <Route path="/contact" component={Contact} />
+      <Route path="/memories" component={Memories} />
       <Route exact path="/" component={Home} />
      </Switch>
     </Router>

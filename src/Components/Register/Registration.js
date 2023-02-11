@@ -77,7 +77,7 @@ function Registration() {
       phone: Phone,
       year: Year,
       attachment: attachment,
-      Acc : Acc,
+      Acc: Acc,
     })
       .then(function(res) {
         alert("Data is sucessfully added");
@@ -87,7 +87,6 @@ function Registration() {
         alert("Data can not be stored");
       });
   };
-
 
   return (
     <div className="registration">
@@ -131,16 +130,19 @@ function Registration() {
           />
           <span>( Events may Technical,Non-Technical,Project,PPT )</span>
           <div className="radio">
-          <input
-            onChange={(e) => setAcc(e.target.value)}
-            type="text"
-            placeholder="Accomodation (Yes or No)"
-            className="accom1"
-          />
-            
+            <input
+              onChange={(e) => setAcc(e.target.value)}
+              type="text"
+              placeholder="Accomodation (Yes or No)"
+              className="accom1"
+            />
+
             <div className="addpayment">
               <div className="addp">
-                <p>Add your Payment ScreenShot here..(if only paid through Online mode)</p>
+                <p>
+                  Add your Payment ScreenShot here..(if only paid through Online
+                  mode)
+                </p>
               </div>
               <label className="addimage">
                 <i>{attachment ? "Payment Added" : "Add Payment"}</i>
@@ -162,7 +164,10 @@ function Registration() {
           </p>
           <p className="or">OR</p>
           <p className="gpay">
-            GooglePay,Paytm,PhonePe : <span>+91 9360287390</span>
+            GooglePay,Paytm :
+            <a href="upi://pay?pa=baskarbalu3500@ybl&pn=SenderName&tn=GCEevents&am=250&cu=INR';">
+              Click Here (9360287390)
+            </a>
           </p>
         </div>
       </div>
