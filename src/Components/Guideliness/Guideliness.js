@@ -44,11 +44,20 @@ function Guideliness() {
 
       <Guide
         t="CAD MODELLING"
-        p1="he use of computer-based software to aid in design processes"
+        p1="The use of computer-based software to aid in design processes"
         p2="1"
         p3="First round may aptitude test of civil related questions"
         p4="Second round is the questions related with CAD design"
       />
+
+      <Guide
+        t="CODE CRACKING"
+        p1="To discover a solution for an particular diffivult or complicated problem by using code books"
+        p2="1"
+        p3="The questions are based on list of codes used for civil engineers"
+        p4="It has 2 rounds"
+      />
+
       <Guide
         t="PRIME ARCHITECT"
         p1="Planning, financing, and design, and continues until the asset is built and ready for use"
@@ -71,14 +80,14 @@ function Guideliness() {
         p4="Don't use watermark or hd templates "
       />
       <Guide
-        t="Treasure Hunt"
+        t="TREASURE HUNT"
         p1="People try to find a hidden price by following special clues which have been left in different places"
         p2="5"
         p3="First clue will be open clue "
         p4="Search based on scanning QR code"
       />
       <Guide
-        t="Rolling sir"
+        t="ROLLING SIR"
         p1="A description,either true or imagined of a connected series of events"
         p2="1"
         p3="Maximum time for story telling is 5 minutes "
