@@ -8,6 +8,7 @@ import ScrollToTop from './ScrollToTop';
 import Contact from './Components/Contact/Contact';
 import Memories from './Components/Memories/Memories';
 import Users from './Components/Users/Users';
+import Guideliness from './Components/Guideliness/Guideliness';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path="/contact" component={Contact} />
       <Route path="/memories" component={Memories} />
       <Route path="/users" component={Users} />
+      <Route path="/guidelines" component={Guideliness} />
       <Route exact path="/" component={Home} />
      </Switch>
     </Router>

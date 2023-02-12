@@ -74,9 +74,7 @@ function Home() {
             <Cards name={"Emerging Engineer"} url={"assets/2.jpg"} />
             <Cards name={"Surveyor"} url={"assets/3.jpg"} />
             <Cards name={"Quiz"} url={"assets/4.jpg"} />
-            <Cards name={"Working Model"} url={"assets/5.jpg"} />
             <Cards name={"PowerPoint Presentation"} url={"assets/6.jpg"} />
-            <Cards name={"Poster Making"} url={"assets/7.jpg"} />
             <Cards name={"CAD Modelling"} url={"assets/8.jpg"} />
             <Cards name={"Prime Architect"} url={"assets/9.jpg"} />
           </div>

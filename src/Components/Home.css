@@ -67,7 +67,7 @@
 
 .home__info {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-  url("banner.jpg") ;
+    url("banner.jpg");
   background-repeat: no-repeat;
   background-position: fixed;
   background-size: cover;
@@ -86,7 +86,7 @@
   color: yellow;
 }
 
-.countdown{
+.countdown {
   background: #f3f171;
   padding: 10px 8px;
   color: #000;
@@ -97,7 +97,7 @@
   margin-right: auto;
 }
 
-.countdown__span{
+.countdown__span {
   margin-top: 20px;
   font-size: 12px;
 }
@@ -158,7 +158,7 @@
     font-size: 13px;
   }
 
-  .info__button>p{
+  .info__button > p {
     font-size: 26px !important;
   }
 
