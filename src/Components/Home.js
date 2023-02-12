@@ -1,4 +1,5 @@
 import React from "react";
+import Countdown from "react-countdown";
 import { useHistory } from "react-router-dom";
 import Cards from "./Cards";
 import Footer from "./Footer";
@@ -6,7 +7,7 @@ import Header from "./Header";
 import "./Home.css";
 
 function Home() {
-  const history=useHistory();
+  const history = useHistory();
   return (
     <div className="home">
       <Header />
@@ -24,7 +25,7 @@ function Home() {
             <p>TECHNOBLAZE 23.0</p>
             <button
               style={{ textDecoration: "none", color: "white" }}
-              onClick={()=>history.push("/register")}
+              onClick={() => history.push("/register")}
             >
               Register Now
             </button>
@@ -39,6 +40,11 @@ function Home() {
         <p>
           Registration Ends On <span>1st March</span>
         </p>
+        <Countdown className="countdown" date={(1676177372762 + 1555200000 )}>
+          <span className="countdown__span">
+            Sorry ! The registration deadline for the events was March 1. 
+          </span>
+        </Countdown>
       </div>
 
       {/* TECHNOBLAZE */}
@@ -76,7 +82,6 @@ function Home() {
           </div>
         </div>
       </div>
-
 
       <div className="nontechnical">
         <div className="nontechnical__title">
