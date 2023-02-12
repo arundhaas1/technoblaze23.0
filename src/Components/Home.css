@@ -55,18 +55,19 @@
   /* background: linear-gradient(to right, rgb(127, 127, 228), rgb(238, 155, 238)); */
   /* color: #fff; */
   cursor: pointer;
-  color: rgb(214, 214, 11) !important;
+  color: rgb(59, 55, 17) !important;
   border: 1px solid transparent;
 }
 
 .info__button > button:hover {
   /* transition: all 4s; */
-  color: white !important;
+  color: rgb(0, 0, 0) !important;
   background: linear-gradient(to right, rgb(203, 252, 125), rgb(228, 226, 127));
 }
 
 .home__info {
-  background-image: url("banner.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url("banner.jpg") ;
   background-repeat: no-repeat;
   background-position: fixed;
   background-size: cover;

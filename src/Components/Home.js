@@ -45,7 +45,7 @@ function Home() {
 
       <div className="technoblaze">
         <div className="technoblaze__title">
-          <p>TECHNOBLAZE 22.0</p>
+          <p>TECHNOBLAZE 23.0</p>
         </div>
         <p>
           Technoblaze 23.0 is an inter college technical and non- technical
