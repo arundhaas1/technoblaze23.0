@@ -35,6 +35,14 @@ function Guideliness() {
       />
 
       <Guide
+        t="QUIZ"
+        p1="A game or competition in which you have to answer questions"
+        p2="1"
+        p3="It has 3 rounds and 4 incharges"
+        p4="First two rounds conducted in class room.Third round questions will be displayed in the screen"
+      />
+
+      <Guide
         t="CAD MODELLING"
         p1="he use of computer-based software to aid in design processes"
         p2="1"
@@ -74,6 +82,14 @@ function Guideliness() {
         p1="A description,either true or imagined of a connected series of events"
         p2="1"
         p3="Maximum time for story telling is 5 minutes "
+        p4="It has 1 round with two incharges"
+      />
+
+      <Guide
+        t="WALL PAINTING"
+        p1="A painting made directly on a wall.such as a fresco or mural "
+        p2="1"
+        p3="The painting should be in civil related theme"
         p4="It has 1 round with two incharges"
       />
       <Footer />
