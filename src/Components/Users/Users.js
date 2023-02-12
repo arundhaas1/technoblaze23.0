@@ -38,7 +38,7 @@ function Users() {
   return (
     <div className="users">
       <Header />
-      <h4 className="title"> REGISTERED USERS </h4>
+      <h4 className="title"> REGISTERED USERS <span className="count"> ({datas.length}<span> Users)</span></span> </h4>
       <div className="user__body">
         {datas.map((data) => {
           return (
