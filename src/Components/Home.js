@@ -38,9 +38,9 @@ function Home() {
           />
         </div>
         <p>
-          Registration Ends On <span>1st March</span>
+          Registration Ends On <span>27th February</span>
         </p>
-        <Countdown className="countdown" date={(1676177372762 + 1555200000 )}>
+        <Countdown className="countdown" date={(1676633222001 + 880160000 )}>
           <span className="countdown__span">
             Sorry ! The registration deadline for the events was March 1. 
           </span>
@@ -70,13 +70,13 @@ function Home() {
         <div className="technical__title">
           <p>Technical</p>
           <div className="technical__list">
-            <Cards name={"Code Cracking"} url={"assets/1.jpg"} />
-            <Cards name={"Emerging Engineer"} url={"assets/2.jpg"} />
-            <Cards name={"Surveyor"} url={"assets/3.jpg"} />
-            <Cards name={"Quiz"} url={"assets/4.jpg"} />
-            <Cards name={"PowerPoint Presentation"} url={"assets/6.jpg"} />
-            <Cards name={"CAD Modelling"} url={"assets/8.jpg"} />
-            <Cards name={"Prime Architect"} url={"assets/9.jpg"} />
+            <Cards name={"Code Cracking"} url={"assets/1-min.jpg"} />
+            <Cards name={"Emerging Engineer"} url={"assets/2-min.jpg"} />
+            <Cards name={"Surveyor"} url={"assets/3-min.jpg"} />
+            <Cards name={"Quiz"} url={"assets/4-min.jpg"} />
+            <Cards name={"PowerPoint Presentation"} url={"assets/6-min.jpg"} />
+            <Cards name={"CAD Modelling"} url={"assets/8-min.jpg"} />
+            <Cards name={"Prime Architect"} url={"assets/9-min.jpg"} />
           </div>
         </div>
       </div>
@@ -86,11 +86,11 @@ function Home() {
           <p>Non-Technical</p>
         </div>
         <div className="nontechnical__data">
-          <Cards name={"Photography"} url={"assets/11.jpg"} />
-          <Cards name={"Meme Creation"} url={"assets/12.jpg"} />
-          <Cards name={"Treasure Hunt"} url={"assets/13.jpg"} />
-          <Cards name={"Rolling Sir"} url={"assets/14.jpg"} />
-          <Cards name={"Wall Painting"} url={"assets/15.jpg"} />
+          <Cards name={"Photography"} url={"assets/11-min.jpg"} />
+          <Cards name={"Meme Creation"} url={"assets/12-min.jpg"} />
+          <Cards name={"Treasure Hunt"} url={"assets/13-min.jpg"} />
+          <Cards name={"Rolling Sir"} url={"assets/14-min.jpg"} />
+          <Cards name={"Wall Painting"} url={"assets/15-min.jpg"} />
         </div>
       </div>
 
