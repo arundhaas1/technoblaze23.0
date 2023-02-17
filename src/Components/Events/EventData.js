@@ -7,7 +7,7 @@ function EventData() {
       <div className="event__tecdata">
         <p>Technical Events</p>
         <div className="technical__data">
-          <Card p={"Strategy meets competition in this escape-style game."} name={"Code Cracking"} url={"assets/1-min.jpg"} />
+          <Card p={"Strategy meets competition in this escape-style game."} name={"Code Cracking"} url={"https://www.aceplp.com.sg/wp-content/uploads/2022/10/civil-engineer-construction-worker-manager-holding-digital-tablet-blueprints-talking-planing-about-construction-site-cooperation-teamwork-concept-1-300x212.png"} />
           <Card p={"Engineering can transform our world and brought innovation to our lives."} name={"Emerging Engineer"} url={"assets/2-min.jpg"} />
           <Card p={"Surveyors provide professional advice on a range of construction-related matters."} name={"Surveyor"} url={"assets/3-min.jpg"} />
           <Card p={"We elevate the good old quiz to new heights of audiovisual entertainment"} name={"Quiz"} url={"assets/4-min.jpg"} />
