@@ -70,7 +70,7 @@ function Home() {
         <div className="technical__title">
           <p>Technical</p>
           <div className="technical__list">
-            <Cards name={"Code Cracking"} url={"https://www.aceplp.com.sg/wp-content/uploads/2022/10/civil-engineer-construction-worker-manager-holding-digital-tablet-blueprints-talking-planing-about-construction-site-cooperation-teamwork-concept-1-300x212.png.jpg"} />
+            <Cards name={"Code Cracking"} url={"assets/1-min.jpg"} />
             <Cards name={"Emerging Engineer"} url={"assets/2-min.jpg"} />
             <Cards name={"Surveyor"} url={"assets/3-min.jpg"} />
             <Cards name={"Quiz"} url={"assets/4-min.jpg"} />
