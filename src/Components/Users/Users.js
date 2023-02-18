@@ -45,27 +45,42 @@ function Users() {
             <div className="user">
               <div className="user__sec">
                 <div className="user__left">
-                  <p>Name </p>
-                  <p>Email</p>
-                  <p>Phone</p>
-                  <p>College</p>
-                  <p>Department</p>
-                  <p>Year</p>
-                  <p>Events</p>
-                  <p>Accomodation</p>
-                  <p>Payment</p>
-                </div>
-
-                <div className="user__right">
-                  <p>{data.name}</p>
-                  <p>{data.email}</p>
-                  <p>{data.phone}</p>
-                  <p>{data.college}</p>
-                  <p>{data.department}</p>
-                  <p>{data.year}</p>
-                  <p>{data.events}</p>
-                  <p>{data.Acc}</p>
-                  <p>{data.attachment !== "" ? "yes" : "No"}</p>
+                  <div className="user__dt">
+                    <p className="head">Name </p>
+                    <p>{data.name}</p>
+                  </div>
+                  <div className="user__dt">
+                    <p className="head">Email</p>
+                    <p>{data.email}</p>
+                  </div>
+                  <div className="user__dt">
+                    <p className="head">Phone</p>
+                    <p>{data.phone}</p>
+                  </div>
+                  <div className="user__dt">
+                    <p className="head">College</p>
+                    <p>{data.college}</p>
+                  </div>
+                  <div className="user__dt">
+                    <p className="head">Department</p>
+                    <p>{data.department}</p>
+                  </div>
+                  <div className="user__dt">
+                    <p className="head">Year</p>
+                    <p>{data.year}</p>
+                  </div>
+                  <div className="user__dt">
+                    <p className="head">Events</p>
+                    <p>{data.events}</p>
+                  </div>
+                  <div className="user__dt">
+                    <p className="head">Accomodation</p>
+                    <p>{data.Acc}</p>
+                  </div>
+                  <div className="user__dt">
+                   <p className="head">Payment</p>
+                   <p>{data.attachment !== "" ? "yes" : "No"}</p>
+                  </div>
                 </div>
               </div>
               {data.attachment !== "" ? (
