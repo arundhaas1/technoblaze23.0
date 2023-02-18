@@ -42,7 +42,7 @@ function Home() {
         </p>
         <Countdown className="countdown" date={(1676633222001 + 880160000 )}>
           <span className="countdown__span">
-            Sorry ! The registration deadline for the events was March 1. 
+            Sorry ! The registration deadline for the events was February 27th . 
           </span>
         </Countdown>
       </div>
