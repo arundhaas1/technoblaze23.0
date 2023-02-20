@@ -6,7 +6,7 @@ function Footer() {
     <div className="footer">
       <h3>TECHNOBLAZE 23.0</h3>
       <p>
-        Technoblaze 23.0 is organised by the Society of civil engineers of GCE Salem for the Advancement of
+        Technoblaze 23.0 is organised by the Society of Civil Engineers of GCE Salem for the Advancement of
         Civil Engineering.
       </p>
       <div className="footer__contact">
