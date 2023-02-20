@@ -8,7 +8,7 @@ function EventData() {
         <p>Technical Events</p>
         <div className="technical__data">
           <Card p={"Strategy meets competition in this escape-style game."} name={"Code Cracking"} url={"assets/1-min.jpg"} />
-          <Card p={"Engineering can transform our world and brought innovation to our lives."} name={"Emerging Engineer"} url={"assets/2-min.jpg"} />
+          
           <Card p={"Surveyors provide professional advice on a range of construction-related matters."} name={"Surveyor"} url={"assets/3-min.jpg"} />
           <Card p={"We elevate the good old quiz to new heights of audiovisual entertainment"} name={"Quiz"} url={"assets/4-min.jpg"} />
           {/* <Card p={"Competition where contestants present their working models that they have created"} name={"Working Model"} url={"assets/5.jpg"} /> */}
@@ -26,7 +26,7 @@ function EventData() {
         <Card p={"Photography is the art, application, and practice of creating durable images by recording light"} name={"Photography"} url={"assets/11-min.jpg"} />
         <Card p={"the idea of hunting for hidden treasures has always been exciting and adventurous"} name={"Treasure Hunt"} url={"assets/13-min.jpg"} />
         <Card p={"Copy that aims to tell your potential attendees what will be happening at the event"} name={"Rolling Sir"} url={"assets/14-min.jpg"} />
-        <Card p={"Wall Art Festival is a colorful journey that intends to gather artists for wall paintings"} name={"Wall Painting"} url={"assets/15-min.jpg"} />
+        <Card p={"Wall Art Festival is a colorful journey that intends to gather artists for wall paintings"} name={"Paint Genix"} url={"assets/15-min.jpg"} />
         </div>
       </div>
     </div>
