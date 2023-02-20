@@ -71,7 +71,6 @@ function Home() {
           <p>Technical</p>
           <div className="technical__list">
             <Cards name={"Code Cracking"} url={"assets/1-min.jpg"} />
-            <Cards name={"Emerging Engineer"} url={"assets/2-min.jpg"} />
             <Cards name={"Surveyor"} url={"assets/3-min.jpg"} />
             <Cards name={"Quiz"} url={"assets/4-min.jpg"} />
             <Cards name={"PowerPoint Presentation"} url={"assets/6-min.jpg"} />
@@ -90,7 +89,7 @@ function Home() {
           <Cards name={"Meme Creation"} url={"assets/12-min.jpg"} />
           <Cards name={"Treasure Hunt"} url={"assets/13-min.jpg"} />
           <Cards name={"Rolling Sir"} url={"assets/14-min.jpg"} />
-          <Cards name={"Wall Painting"} url={"assets/15-min.jpg"} />
+          <Cards name={"Paint Genix"} url={"assets/15-min.jpg"} />
         </div>
       </div>
 
