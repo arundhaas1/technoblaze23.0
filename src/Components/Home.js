@@ -40,6 +40,11 @@ function Home() {
         <p>
           Registration Ends On <span>27th February</span>
         </p>
+        <div>
+        <p className="sp">
+          Paper Submisssion Ends On <span>28th February</span> 
+        </p>
+        </div>
        
         <Countdown className="countdown" date={(1676633222001 + 880160000 )}>
           <span className="countdown__span">
