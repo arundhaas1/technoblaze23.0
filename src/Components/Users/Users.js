@@ -44,6 +44,7 @@ function Users() {
           return (
             <div className="user">
               <div className="user__sec">
+                <p>ID : {data.id}</p>
                 <div className="user__left">
                   <div className="user__dt">
                     <p className="head">Name </p>

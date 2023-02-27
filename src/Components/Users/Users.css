@@ -38,6 +38,16 @@
 
 .user__sec {
   display: flex;
+  flex-direction: column;
+}
+
+.user__sec>p{
+  font-size: 10px;
+  margin-left: auto;
+  /* font-weight: 500; */
+  cursor: pointer;
+  margin-bottom: 2px;
+  font-style: italic;
 }
 
 
