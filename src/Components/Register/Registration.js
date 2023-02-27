@@ -133,7 +133,7 @@ function Registration() {
             <input
               onChange={(e) => setAcc(e.target.value)}
               type="text"
-              placeholder="Accomodation (Yes or No)"
+              placeholder="Accomodation - Free (Yes or No)"
               className="accom1"
             />
 
