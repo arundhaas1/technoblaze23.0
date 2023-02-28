@@ -10,7 +10,7 @@ function Contact() {
   const history = useHistory();
 
   useEffect(() => {
-    if (pass === "132002") {
+    if (pass === "332023") {
       history.push("/users");
     }
   }, [pass]);
