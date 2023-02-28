@@ -19,7 +19,7 @@ function App() {
       <Route path="/register" component={Register} />
       <Route path="/contact" component={Contact} />
       <Route path="/memories" component={Memories} />
-      <Route path="/users" component={Users} />
+//       <Route path="/users" component={Users} />
       <Route path="/guidelines" component={Guideliness} />
       <Route exact path="/" component={Home} />
      </Switch>
