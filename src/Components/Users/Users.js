@@ -19,19 +19,18 @@ function Users() {
     measurementId: "G-0SZMD5TWE6",
   };
 
-  // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   const db = getFirestore(app);
   const authdocs = collection(db, "technoblaze23.0");
 
-  useEffect(() => {
-    getData();
-  }, [datas]);
+//   useEffect(() => {
+//     getData();
+//   }, [datas]);
 
-  const getData = async () => {
-    const data = await getDocs(authdocs);
-    setDatas(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
-  };
+//   const getData = async () => {
+//     const data = await getDocs(authdocs);
+//     setDatas(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
+//   };
 
   console.log(datas);
 
