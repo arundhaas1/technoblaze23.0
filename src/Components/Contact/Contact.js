@@ -23,7 +23,7 @@ function Contact() {
     <div className="contact">
       <Header />
       <ContactCard />
-
+       <p onClick={toUser}>registered users</p>
       <Footer />
     </div>
   );
